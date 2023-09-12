@@ -1,0 +1,70 @@
+html, body{
+	font-family: Times New Roman, san-serif;
+	margin: 0;
+	text-align: center;
+	background-color: #E6E6E6;
+	font-size: 20px;
+}
+@font-face{
+	font-family: SF;
+	src: url("SF Distant Galaxy.ttf");
+}
+header{
+	padding: 40px;
+	text-align: center;
+	background-size: cover;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(230,230,230,1) 100%), url("Iron Man Background.jpg");
+}
+h1{
+	font-size: 110px;
+	color: black;
+	font-family: SF;
+}
+h2{
+	color: #AA2025;
+}
+header img{
+	border-radius: 174px;
+	width: 300px;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border-radius: 30px;
+}
+img.big-image{
+	max-width: 90%;
+}	
+p.caption{
+	font-size: 16px;
+	color: light grey;
+	font-style: italic;
+}
+ol{
+	list-style: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+a{
+	color: #0000FF;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-image: linear-gradient(to bottom, rgba(230,230,230,1), rgba(220,220,220,0) 100%), url("footer pic.jpg");
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+	color: black;
+}
